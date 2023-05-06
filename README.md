@@ -133,6 +133,19 @@ Consider using if you have access to suitable services that you wish to reuse, w
  https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ee658117(v=pandp.10)
 ## lecture 5
 
+## lecture 10
+### microservice architecture 
+In microservices architecture, low coupling and high cohesion are essential characteristics.
+Low coupling means that services should be loosely connected, while high cohesion means that services should be highly focused.
+Having low coupling and high cohesion allows for greater flexibility, scalability, and ease of maintenance in microservices architecture.
+Developing a product roadmap for first quarter releases is important for timeliness, competitive advantage, and revenue generation.
+A product roadmap can help ensure that product releases are planned and executed efficiently, taking into account development, testing, and deployment timelines.
+In RESTful services, a resource is a unit of information that can be accessed and manipulated through a well-defined interface.
+RESTful services operate on resources using HTTP methods such as GET, POST, PUT, and DELETE.
+Examples of resources in an educational software product could include student records, course schedules, and quiz questions.
+HTTP methods allow clients to access and modify resources in a RESTful service.   
+https://microservices.io/patterns/microservices.html
+
 ## lecture 11
 ### software testing
 software testing mentioned in the article:
