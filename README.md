@@ -175,5 +175,14 @@ Key technologies include analysis tools and load-testing tools.
 
 
 https://archive.openconcept.ca//blog/mparker/overview-software-testing
+### code review
+code review:
 
+Review small chunks of code at a time, ideally no more than 400 lines of code, to ensure thoroughness and reduce the chance of missing defects.
+Take your time during the review process and aim for a pace of 500 lines of code or fewer per hour, as this has been shown to be the most effective rate for finding defects.
+Use checklists to ensure that common mistakes are caught and that all aspects of the code are reviewed.
+Establish a process for fixing defects found during the review process, such as using a collaborative code review tool that allows reviewers to log bugs and discuss changes with the author.
+Foster a positive code review culture by emphasizing collaboration and learning rather than using defects found in reviews as a basis for evaluating team members.   
+
+https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 
