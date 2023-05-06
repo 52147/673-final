@@ -66,8 +66,27 @@ Delivering a great user experience involves describing the desired user experien
 - Scrum can be combined with other Agile methodologies, such as Kanban or Extreme Programming (XP), to create a hybrid approach.
 - To successfully implement Scrum, it is important to have buy-in from all team members and stakeholders, and to have a clear understanding of the framework and its principles.
 ### CI/CD
-
-
+## lecture 3
+### feature driven
+- Feature-Driven Development (FDD) is an agile process designed to work for larger projects and teams.
+- FDD was invented by Jeff De Luca and is often overlooked in the agile software development community.
+- FDD uses "just enough" upfront activities to support additional communication needed in larger projects/teams.
+- FDD organizes projects around five processes, the first three of which are equivalent to iteration zero activities.
+- The first process involves creating a domain object model in collaboration with domain experts to establish a shared vocabulary.
+- The second process involves building a features list, which is organized into a three-level hierarchy based on domain subject areas and business activities.
+- The third process involves constructing an initial schedule, assigning responsibilities to Chief Programmers, and establishing individual class ownership.
+- FDD does not use the term "iteration zero," but instead calls the initial processes "initial project-wide activities."
+- FDD's upfront activities are not about big design upfront (BDUF), but about doing "Just Enough Design Initially" (JEDI).
+- Experienced object modelers and development/project managers guide the modeling and planning teams in FDD.
+https://dzone.com/articles/introduction-feature-driven
+### persona
+- A persona is a way to model, summarize, and communicate research about people who have been observed or researched in some way.
+Each persona represents a significant portion of people in the real world and enables the designer to focus on a manageable and memorable cast of characters.
+- A persona document should clearly communicate and summarize research data, but the document itself is not the most important thing. The fundamental understanding of users is what’s important.
+- Alan Cooper informally developed personas in the early ’80s as a way to empathize with and internalize the mindset of people who would eventually use the software he was designing.
+- Personas are an essential part of goal-directed design, which combines new and old methodologies from ethnography, market research, and strategic planning to simultaneously address business needs, technological requirements, and user goals.
+- Personas are never used in isolation, but rather are implemented in conjunction with other processes, concepts, and methods that support and augment their use.
+### user story
 ## lecture 4
 ### architectural style
 #### client/server architectural style:
@@ -113,3 +132,48 @@ Consider using if you have access to suitable services that you wish to reuse, w
 
  https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ee658117(v=pandp.10)
 ## lecture 5
+
+## lecture 11
+### software testing
+software testing mentioned in the article:
+
+#### Unit tests:
+
+White-box tests that focus on a small, limited scope (usually a single function)
+Written by the software developer to ensure code paths and edge cases are covered
+Typically short and quickly written, with carefully chosen test parameters
+Mock objects are commonly used to isolate the function under test
+Ideally written before the function(s) they test, following Test Driven Development principles
+#### Integration tests:
+
+Grey-box tests that focus on interactions between objects and interfaces on a limited scope
+Written by the software developer to ensure objects/subsystems interact with dependencies correctly
+Medium-length and quickly written, typically checking success/failure states and inputs/outputs
+Mocking dependencies, shared resources, and IPC is common practice
+Ideally written before the object(s) they test, following TDD principles
+#### Acceptance tests:
+
+Black-box tests that cover how a user moves through the system on a broader scope
+Written by the product owner, client, tester, or developer to ensure client requirements are met
+Short and written by outlining the steps the user must take to complete requested functionality
+Ideally written by the client or product owner before the UI is developed
+Key technologies include manual tests, the Gherkin domain-specific language, and visual regression tools
+#### Refinement tests:
+
+Black-box tests that determine if a proposed UI is useful, usable, aesthetically pleasing, identifiable, inspirational, and valuable
+Typically written by a designer or UX expert by presenting a UI design to users and gathering data on how they experience it
+Beginning refinement testing before any real (non-prototype) code is implemented often reduces the number of design/UI changes later in development
+Key technologies include visual difference tools, A/B testing frameworks, and accessibility testing
+Other names include UX tests, usability tests, and end-user tests
+#### System tests:
+
+Black-box tests that cover the system as a whole on an extremely broad scope
+Written by the tester, developer, and product owner to catch regressions, set performance thresholds, and stress-test the system
+Results aren't always a strict pass/fail, trends are more important
+Ideally written or their parameters chosen before any development work is done
+Key technologies include analysis tools and load-testing tools.  
+
+
+https://archive.openconcept.ca//blog/mparker/overview-software-testing
+
+
