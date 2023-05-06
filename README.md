@@ -68,3 +68,48 @@ Delivering a great user experience involves describing the desired user experien
 ### CI/CD
 
 
+## lecture 4
+### architectural style
+#### client/server architectural style:
+
+Client/server architecture involves a separate client and server system connected by a network.
+The simplest form is a 2-Tier architecture, where a server application is accessed directly by multiple clients.
+Historically, client/server architecture referred to a graphical desktop UI application that communicated with a database server or dedicated file server.
+Today, examples of the client/server architectural style include web browser-based programs, Microsoft Windows operating system-based applications, and tools and utilities that manipulate remote systems.
+Other variations on the client/server style include client-queue-client systems, peer-to-peer applications, and application servers.
+Benefits of the client/server architectural style include higher security, centralized data access, and ease of maintenance.
+The client/server architectural style is suitable for applications that are server-based and support many clients, web-based applications, business processes used by people throughout an organization, and services for other applications to consume.
+The traditional 2-Tier client/server architectural style has several disadvantages, such as close combination of application data and business logic on the server and dependence on a central server.
+To address these issues, the client/server architectural style has evolved into the more general 3-Tier (or N-Tier) architectural style, which provides additional benefits.
+#### Client/Server:
+
+Involves a separate client and server system with a connecting network
+Client initiates one or more requests and waits for replies from the server
+Examples include web-based programs, Microsoft Windows-based applications, and tools that manipulate remote systems
+Benefits include higher security, centralized data access, and ease of maintenance
+Disadvantages include closely combined application data and business logic, and dependence on a central server
+#### N-Tier/3-Tier:
+
+Segments functionality into tiers that can be located on physically separate computers
+Each tier is independent of all other tiers except for those immediately above and below it
+At least three separate logical parts, each responsible for specific functionality
+Benefits include maintainability, scalability, flexibility, and availability
+Consider using if processing requirements of layers differ, or security requirements of layers differ
+Object-Oriented:
+
+Based on the division of responsibilities into individual reusable and self-sufficient objects
+Views a system as a series of cooperating objects instead of a set of routines or procedural instructions
+Key principles include abstraction, composition, inheritance, encapsulation, polymorphism, and decoupling
+Benefits include understandability, reusability, testability, extensibility, and high cohesion
+Consider using if you want to model your application based on real world objects and actions, or you have complex business logic that requires abstraction and dynamic behavior
+#### Service-Oriented:
+
+Enables application functionality to be provided as a set of services, and the creation of applications that make use of software services
+Services are loosely coupled and use standards-based interfaces that can be invoked, published, and discovered
+Key principles include autonomy, distributability, loose coupling, shared schema and contract, and compatibility based on policy
+Benefits include domain alignment, abstraction, discoverability, interoperability, and rationalization
+Consider using if you have access to suitable services that you wish to reuse, want to build applications that compose a variety of services into a single UI, or are creating cloud-based applications.    
+
+
+ https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ee658117(v=pandp.10)
+## lecture 5
