@@ -135,15 +135,15 @@ Consider using if you have access to suitable services that you wish to reuse, w
 
 ## lecture 10
 ### microservice architecture 
-In microservices architecture, low coupling and high cohesion are essential characteristics.
-Low coupling means that services should be loosely connected, while high cohesion means that services should be highly focused.
-Having low coupling and high cohesion allows for greater flexibility, scalability, and ease of maintenance in microservices architecture.
-Developing a product roadmap for first quarter releases is important for timeliness, competitive advantage, and revenue generation.
-A product roadmap can help ensure that product releases are planned and executed efficiently, taking into account development, testing, and deployment timelines.
-In RESTful services, a resource is a unit of information that can be accessed and manipulated through a well-defined interface.
-RESTful services operate on resources using HTTP methods such as GET, POST, PUT, and DELETE.
-Examples of resources in an educational software product could include student records, course schedules, and quiz questions.
-HTTP methods allow clients to access and modify resources in a RESTful service.   
+- The microservice architecture is a design approach for structuring applications as a set of independently deployable, loosely coupled services, each consisting of one or more subdomains.
+- Each subdomain implements a slice of business functionality, including business logic and adapters for communicating with the outside world.
+- Teams are organized into small, cross-functional groups responsible for one or more subdomains.
+- Distributed operations are implemented using synchronous or asynchronous protocols, such as HTTP/REST or message brokers like Apache Kafka.
+- The benefits of the microservice architecture include simple services, team autonomy, fast deployment pipeline, support for multiple technology stacks, and segregation of subdomains by characteristics to improve scalability, availability, and security.
+- The potential drawbacks include complex and inefficient interactions, complex eventually consistent transactions, runtime coupling between services, and tight design-time coupling.
+- Service collaboration patterns, such as Saga and CQRS, are used to implement distributed operations that span multiple services and ensure loose coupling.
+- There are many related patterns and approaches to the microservice architecture, including messaging and remote procedure invocation patterns, database per service, API gateway, client-side and server-side discovery, testing patterns, circuit breaker, observability patterns, UI patterns, and - cross-cutting concerns patterns.
+- Companies like Netflix, Amazon, and eBay have all adopted the microservice architecture to scale their applications and improve agility.  
 https://microservices.io/patterns/microservices.html
 
 ## lecture 11
