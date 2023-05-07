@@ -193,10 +193,13 @@ The MVC (Model-View-Controller) pattern is used to separate the concerns of an a
 - Adapter 模式用於將一個類的接口轉換為客戶端期望的接口，而無需更改任何一個類的源代碼。
 - MVC（模型-視圖-控制器）模式用於將應用程序的關注點分為三個不同的組件：模型（數據和業務邏輯）、視圖（用戶界面）和控制器（模型和視圖之間的中介） ).
 ### What is Agile software development, and how does it differ from traditional software development methodologies?
-- Agile software development is an iterative, collaborative approach to software development that emphasizes flexibility and adaptability.
-- Agile methodologies focus on delivering working software quickly and frequently, while also responding quickly to changing requirements and feedback.
-- Agile teams typically work in short, time-boxed iterations (often called "sprints") and emphasize collaboration, communication, and self-organization.
-- Agile methodologies differ from traditional software development methodologies, such as the Waterfall model, which emphasize sequential planning and - development phases and require a detailed plan upfront.
+1. Agile software developement definition:
+  - Agile software development is an iterative, collaborative approach to software development that emphasizes flexibility and adaptability.
+2. Implementation:
+  - Agile methodologies focus on delivering working software quickly and frequently, while also responding quickly to changing requirements and feedback.
+  - Agile teams typically work in short, time-boxed iterations (often called "sprints") and emphasize collaboration, communication, and self-organization.
+3. Difference between traditional software development methodologies:
+   - Agile methodologies differ from traditional software development methodologies, such as the Waterfall model, which emphasize sequential planning and - development phases and require a detailed plan upfront.
 - 什麼是敏捷軟件開發，它與傳統軟件開發方法有何不同？
 - 敏捷軟件開發是一種迭代的、協作的軟件開發方法，強調靈活性和適應性。
 - 敏捷方法側重於快速、頻繁地交付工作軟件，同時快速響應不斷變化的需求和反饋。
