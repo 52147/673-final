@@ -1,14 +1,41 @@
 # 673-final 期末考猜題
 ## Sample Questions
 1. Explain why microservices should have low coupling and high cohesion. 
+- Low coupling ensures that microservices are loosely connected to each other, minimizing dependencies and allowing for faster, more flexible development and deployment.
+- High cohesion ensures that microservices are highly focused on specific tasks or functions, making them easier to understand, test, and maintain over time.
+- Low coupling and high cohesion together allow for greater scalability and adaptability in the microservices architecture, enabling teams to develop, test, and deploy individual services independently of each other.
+- High cohesion also helps to reduce the risk of bugs and errors in the system, as each microservice has a clear purpose and set of responsibilities, making it easier to identify and fix issues.
+- By focusing on low coupling and high cohesion, developers can create a more modular and extensible system, enabling the organization to quickly and easily add new features or services as needed.
 
-- In microservices architecture, low coupling and high cohesion are essential characteristics.
-- Low coupling means that services should be loosely connected, while high cohesion means that services should be highly focused.
-- Having low coupling and high cohesion allows for greater flexibility, scalability, and ease of maintenance in microservices architecture.
-- 解釋為什麼微服務應該具有低耦合和高內聚性。
-- 在微服務架構中，低耦合和高內聚是必不可少的特性。
-- 低耦合意味著服務應該鬆散連接，而高內聚意味著服務應該高度集中。
-- 具有低耦合和高內聚性可以在微服務架構中實現更大的靈活性、可擴展性和易維護性。
+- 這裡有五個要點解釋了為什麼微服務應該具有低耦合和高內聚性：
+
+- 低耦合確保微服務彼此鬆散連接，最大限度地減少依賴性並允許更快、更靈活的開發和部署。
+- 高內聚確保微服務高度專注於特定的任務或功能，使它們更容易理解、測試和維護。
+- 低耦合和高內聚一起允許在微服務架構中具有更大的可擴展性和適應性，使團隊能夠開發、測試和部署彼此獨立的單個服務。
+- 高內聚性還有助於降低系統中出現錯誤和錯誤的風險，因為每個微服務都有明確的目的和職責集，從而更容易識別和修復問題。
+- 通過專注於低耦合和高內聚，開發人員可以創建更加模塊化和可擴展的系統，使組織能夠根據需要快速輕鬆地添加新功能或服務。
+
+
+- Here is an example of how low coupling and high cohesion can be applied in a microservices architecture:
+
+- Let's say a company is developing an e-commerce platform consisting of multiple microservices, including a product catalog service, a shopping cart service, a checkout service, and a payment service. To ensure low coupling and high cohesion:
+
+- The product catalog service should be responsible for managing product data and related information, and should not have direct dependencies on the other services.
+- The shopping cart service should be responsible for managing shopping cart data and related information, and should not have direct dependencies on the other services.
+- The checkout service should be responsible for managing the checkout process, and should not have direct dependencies on the other services.
+- The payment service should be responsible for processing payments, and should not have direct dependencies on the other services.
+- Each service should have a well-defined API that enables communication with other services, and should adhere to standard protocols and interfaces.
+- By designing each service with low coupling and high cohesion, the e-commerce platform can be more flexible, scalable, and maintainable over time. For example, the company could easily add new services or features to the platform without disrupting existing services, and could quickly update or replace individual services as needed.
+以下是如何在微服務架構中應用低耦合和高內聚的示例：
+
+- 假設一家公司正在開發一個由多個微服務組成的電子商務平台，包括產品目錄服務、購物車服務、結賬服務和支付服務。 為了保證低耦合和高內聚：
+
+- 產品目錄服務應負責管理產品數據和相關信息，不應直接依賴於其他服務。
+- 購物車服務應負責管理購物車數據和相關信息，不應直接依賴於其他服務。
+- 結賬服務應負責管理結賬流程，不應直接依賴於其他服務。
+- 支付服務應負責處理支付，不應直接依賴於其他服務。
+- 每個服務都應該有一個定義良好的 API 來實現與其他服務的通信，並且應該遵守標準協議和接口。
+- 通過以低耦合和高內聚的方式設計每個服務，電子商務平台可以隨著時間的推移變得更加靈活、可擴展和可維護。 例如，公司可以在不中斷現有服務的情況下輕鬆地向平台添加新服務或功能，並且可以根據需要快速更新或替換個別服務。
 2. You are a software product manager for a company developing educational software products based around scientific simulations to be used by colleges. Explain why it is important to develop a product roadmap so that final product releases are available in the first three months of the year. 
 
 - Developing a product roadmap for first quarter releases is important for timeliness, competitive advantage, and revenue generation.
@@ -16,16 +43,16 @@
 - 為第一季度發布製定產品路線圖對於及時性、競爭優勢和創收非常重要。
 - 產品路線圖有助於確保產品發布得到有效規劃和執行，同時考慮開發、測試和部署時間表。
 3. In the context of RESTful services, explain what is meant by a ‘resource’. How do RESTful services address resources and operate on them? 
-
-- In RESTful services, a resource is a unit of information that can be accessed and manipulated through a well-defined interface.
-- RESTful services operate on resources using HTTP methods such as GET, POST, PUT, and DELETE.
-- Examples of resources in an educational software product could include student records, course schedules, and quiz questions.
-- HTTP methods allow clients to access and modify resources in a RESTful service.
-- 在 RESTful 服務的上下文中，解釋“資源”的含義。 RESTful 服務如何尋址資源並對其進行操作？
-- 在 RESTful 服務中，資源是可以通過定義明確的接口訪問和操作的信息單元。
-- RESTful 服務使用 HTTP 方法（例如 GET、POST、PUT 和 DELETE）對資源進行操作。
-- 教育軟件產品中的資源示例可能包括學生記錄、課程表和測驗問題。
-- HTTP 方法允許客戶端訪問和修改 RESTful 服務中的資源。
+- A resource in RESTful services is a unit of information or functionality that can be accessed and manipulated through a well-defined interface, typically identified using URIs.
+- RESTful services operate on resources using HTTP methods, such as GET, POST, PUT, and DELETE, with each method having a specific purpose.
+- GET is used to retrieve a representation of a resource, POST is used to create a new resource or perform a non-idempotent operation on an existing resource, PUT is used to update an existing resource or create a new resource if it does not exist, and DELETE is used to delete a resource.
+- Clients send HTTP requests to a resource's URI using the appropriate HTTP method, and servers respond with an HTTP status code indicating the success or failure of the operation, along with a representation of the resource in a specified format.
+- RESTful services are designed to be stateless, with each request containing all of the information necessary to complete the operation, enabling greater scalability and flexibility in the system.
+- RESTful 服務中的資源是一個信息或功能單元，可以通過定義明確的接口訪問和操作，通常使用 URI 標識。
+- RESTful 服務使用 HTTP 方法（例如 GET、POST、PUT 和 DELETE）對資源進行操作，每種方法都有特定的用途。
+- GET 用於檢索資源的表示，POST 用於創建新資源或對現有資源執行非冪等操作，PUT 用於更新現有資源或創建新資源（如果不存在）， DELETE 用於刪除資源。
+- 客戶端使用適當的 HTTP 方法向資源的 URI 發送 HTTP 請求，服務器以指示操作成功或失敗的 HTTP 狀態代碼以及指定格式的資源表示形式進行響應。
+- RESTful 服務被設計為無狀態的，每個請求都包含完成操作所需的所有信息，從而使系統具有更大的可擴展性和靈活性。
 ##  Questions
 ### What is the difference between a monolithic and a microservices architecture?
 - A monolithic architecture is a single, self-contained application, while a microservices architecture is composed of smaller, independent services.
