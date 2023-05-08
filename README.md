@@ -382,6 +382,62 @@ Many popular software frameworks and libraries, such as Java's Spring framework,
 - 用戶體驗設計涉及多種技術，例如用戶研究、線框圖、原型設計和可用性測試。
 - UX 設計應該是一個迭代的過程，通過持續的反饋和測試來確保軟件應用程序滿足用戶的需求和期望。
 
+### What is a software development lifecycle (SDLC), and how does it differ from an Agile development approach?
+A software development lifecycle (SDLC) is a process for developing software applications, typically consisting of phases such as planning, analysis, design, implementation, and testing.
+SDLC differs from Agile development approaches in that it emphasizes a structured, sequential approach to development, with each phase building on the previous phase.
+Agile development, in contrast, emphasizes a more iterative and flexible approach, with frequent feedback and collaboration among team members and stakeholders.
+SDLC can be useful for complex or large-scale software development projects, where a structured approach is necessary to manage the project effectively.
+Agile development can be useful for smaller or more dynamic projects, where frequent feedback and collaboration are critical to delivering high-quality software applications quickly and efficiently.
+什麼是軟件開發生命週期 (SDLC)，它與敏捷開發方法有何不同？
+軟件開發生命週期 (SDLC) 是開發軟件應用程序的過程，通常包括規劃、分析、設計、實施和測試等階段。
+SDLC 不同於敏捷開發方法，因為它強調結構化、順序的開發方法，每個階段都建立在前一個階段之上。
+相比之下，敏捷開發強調一種更加迭代和靈活的方法，在團隊成員和利益相關者之間進行頻繁的反饋和協作。
+SDLC 可用於復雜或大型軟件開發項目，其中需要結構化方法來有效管理項目。
+敏捷開發對於更小或更動態的項目很有用，在這些項目中，頻繁的反饋和協作對於快速高效地交付高質量的軟件應用程序至關重要。
+
+
+### What are the differences between SaaS, PaaS, and IaaS, and when would you choose one over the other?
+SaaS, PaaS, and IaaS are three different cloud computing service models. The main differences between them are:
+SaaS (Software as a Service) is a cloud computing model where software applications are delivered over the internet. Users can access the software through a web browser or mobile app, and the software is hosted on a remote server. Examples of SaaS include Salesforce, Google Apps, and Dropbox.
+PaaS (Platform as a Service) is a cloud computing model where a platform is provided to developers to build and deploy their software applications. PaaS provides the infrastructure necessary for software development, such as operating systems, databases, and programming languages. Examples of PaaS include Google App Engine, Microsoft Azure, and Heroku.
+IaaS (Infrastructure as a Service) is a cloud computing model where infrastructure is provided to users as a service. IaaS provides the basic building blocks necessary for computing, such as servers, storage, and networking. Examples of IaaS include Amazon Web Services, Microsoft Azure, and Google Compute Engine.
+When choosing between SaaS, PaaS, and IaaS, the decision should be based on specific requirements and use cases. For example:
+SaaS is a good option for organizations that need a quick and easy way to access software applications, without having to worry about hardware or software maintenance.
+PaaS is a good option for developers who need a platform to build and deploy software applications quickly and efficiently.
+IaaS is a good option for organizations that want complete control over their infrastructure, including the ability to customize it to their specific needs.
+Overall, the choice between SaaS, PaaS, and IaaS depends on factors such as cost, scalability, customization, and management.
+SaaS、PaaS 和 IaaS 之間的區別是什麼，您什麼時候會選擇其中之一？
+
+
+SaaS、PaaS、IaaS是三種不同的雲計算服務模式。 它們之間的主要區別是：
+SaaS（軟件即服務）是一種雲計算模型，其中軟件應用程序通過 Internet 交付。 用戶可以通過網絡瀏覽器或移動應用程序訪問該軟件，該軟件託管在遠程服務器上。 SaaS 的示例包括 Salesforce、Google Apps 和 Dropbox。
+PaaS（平台即服務）是一種雲計算模型，其中為開發人員提供了一個平台來構建和部署他們的軟件應用程序。 PaaS 提供軟件開發所需的基礎設施，例如操作系統、數據庫和編程語言。 PaaS 的示例包括 Google App Engine、Microsoft Azure 和 Heroku。
+IaaS（基礎設施即服務）是一種雲計算模型，其中基礎設施作為服務提供給用戶。 IaaS 提供計算所需的基本構建塊，例如服務器、存儲和網絡。 IaaS 的示例包括 Amazon Web Services、Microsoft Azure 和 Google Compute Engine。
+在 SaaS、PaaS 和 IaaS 之間進行選擇時，應根據具體要求和用例做出決定。 例如：
+對於需要快速簡便地訪問軟件應用程序而不必擔心硬件或軟件維護的組織來說，SaaS 是一個不錯的選擇。
+對於需要一個平台來快速高效地構建和部署軟件應用程序的開發人員來說，PaaS 是一個不錯的選擇。
+IaaS 對於希望完全控制其基礎架構的組織來說是一個不錯的選擇，包括能夠根據其特定需求對其進行自定義。
+總體而言，SaaS、PaaS 和 IaaS 之間的選擇取決於成本、可擴展性、定制和管理等因素。
+
+### What is Docker, and how does it differ from virtual machines? How do containers work, and what is the purpose of images and containers in Docker? Additionally, how does Docker handle inter-container communication and data persistence through networking and volumes, respectively?
+- Definition:
+  - Docker is a platform that allows developers to easily create, deploy, and run applications in containers.
+- Container vs VM:
+  - Containers are lightweight, isolated, and portable environments that allow applications to run consistently across different systems.
+  - Unlike virtual machines, containers share the host operating system kernel and only contain application code and dependencies, making them more efficient and faster to start up.
+- Property:
+  - Docker images are read-only templates that define an application's environment and dependencies, while Docker containers are instances of those images that can be run, started, stopped, and deleted.
+  - Images can be stored in Docker registries, such as Docker Hub, and pulled by developers to create new containers.
+  - Docker uses networking to allow containers to communicate with each other and with external systems. Each container can be assigned a unique IP address and exposed ports.
+  - Docker also provides volumes, which are directories that can be mounted inside containers to allow for persistent data storage. Volumes can be managed by Docker or by external storage providers.
+- 27. 什麼是 Docker，它與虛擬機有何不同？ 容器是如何工作的，Docker 中鏡像和容器的用途是什麼？ 此外，Docker 如何分別通過網絡和卷處理容器間通信和數據持久化？
+- Docker 是一個允許開發人員在容器中輕鬆創建、部署和運行應用程序的平台。
+- 容器是輕量級、隔離的和可移植的環境，允許應用程序在不同系統上一致地運行。
+- 與虛擬機不同，容器共享主機操作系統內核，只包含應用程序代碼和依賴項，使其啟動更高效、更快速。
+- Docker 鏡像是定義應用程序環境和依賴項的只讀模板，而 Docker 容器是這些鏡像的實例，可以運行、啟動、停止和刪除。
+- 圖像可以存儲在 Docker 註冊表中，例如 Docker Hub，並由開發人員拉取以創建新容器。
+- Docker 使用網絡允許容器相互通信以及與外部系統通信。 每個容器都可以分配一個唯一的 IP 地址和公開的端口。
+- Docker 還提供卷，它們是可以掛載在容器內以允許持久數據存儲的目錄。 卷可以由 Docker 或外部存儲提供商管理。
 
 ## lecture 1
 ### Product Manager
