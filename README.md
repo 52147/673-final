@@ -167,11 +167,14 @@
 
 
 ### What is continuous integration and continuous deployment (CI/CD) and how do they relate to modern software development?
-- Continuous integration (CI) is the practice of automatically building and testing code changes whenever they are committed to a version control system.
-- Continuous deployment (CD) is the practice of automatically deploying code changes to production servers whenever they pass a set of automated tests and quality checks.
-- Together, CI/CD enable fast, frequent releases and greater agility in responding to changing requirements.
-- By automating the build, test, and deployment processes, CI/CD reduces the risk of errors and enables faster, more efficient software development and deployment.
-- CI/CD is a core component of modern software development, particularly in agile and DevOps environments.
+- CI:
+  - Continuous integration (CI) is the practice of automatically building and testing code changes whenever they are committed to a version control system.
+- CD:
+  - Continuous deployment (CD) is the practice of automatically deploying code changes to production servers whenever they pass a set of automated tests and quality checks.
+- CI/CD:
+  - Together, CI/CD enable fast, frequent releases and greater agility in responding to changing requirements.
+  - By automating the build, test, and deployment processes, CI/CD reduces the risk of errors and enables faster, more efficient software development and deployment.
+  - CI/CD is a core component of modern software development, particularly in agile and DevOps environments.
 - 什麼是持續集成和持續部署 (CI/CD)，它們與現代軟件開發有何關係？
 - 持續集成 (CI) 是在代碼更改提交到版本控制系統時自動構建和測試代碼更改的做法。
 - 持續部署 (CD) 是一種在生產服務器通過一組自動化測試和質量檢查時自動將代碼更改部署到生產服務器的做法。
