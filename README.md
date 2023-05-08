@@ -1,11 +1,14 @@
 # 673-final 期末考猜題
 ## Sample Questions
 1. Explain why microservices should have low coupling and high cohesion. 
-- Low coupling ensures that microservices are loosely connected to each other, minimizing dependencies and allowing for faster, more flexible development and deployment.
-- High cohesion ensures that microservices are highly focused on specific tasks or functions, making them easier to understand, test, and maintain over time.
-- Low coupling and high cohesion together allow for greater scalability and adaptability in the microservices architecture, enabling teams to develop, test, and deploy individual services independently of each other.
-- High cohesion also helps to reduce the risk of bugs and errors in the system, as each microservice has a clear purpose and set of responsibilities, making it easier to identify and fix issues.
-- By focusing on low coupling and high cohesion, developers can create a more modular and extensible system, enabling the organization to quickly and easily add new features or services as needed.
+- Low coupling: 
+  - Low coupling ensures that microservices are loosely connected to each other, minimizing dependencies and allowing for faster, more flexible development and deployment.
+- High cohesion:
+  - High cohesion ensures that microservices are highly focused on specific tasks or functions, making them easier to understand, test, and maintain over time.
+- Low coupling & High cohesion:
+  - Low coupling and high cohesion together allow for greater scalability and adaptability in the microservices architecture, enabling teams to develop, test, and deploy individual services independently of each other.
+  - High cohesion also helps to reduce the risk of bugs and errors in the system, as each microservice has a clear purpose and set of responsibilities, making it easier to identify and fix issues.
+  - By focusing on low coupling and high cohesion, developers can create a more modular and extensible system, enabling the organization to quickly and easily add new features or services as needed.
 
 - 這裡有五個要點解釋了為什麼微服務應該具有低耦合和高內聚性：
 
