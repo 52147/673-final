@@ -439,6 +439,78 @@ IaaS 對於希望完全控制其基礎架構的組織來說是一個不錯的選
 - Docker 使用網絡允許容器相互通信以及與外部系統通信。 每個容器都可以分配一個唯一的 IP 地址和公開的端口。
 - Docker 還提供卷，它們是可以掛載在容器內以允許持久數據存儲的目錄。 卷可以由 Docker 或外部存儲提供商管理。
 
+
+### What is layer architecture, and how does it help with software development?
+Layer architecture is a design pattern used in software development to organize code into distinct layers, with each layer responsible for a specific set of tasks or functions.
+Typically, the layers are arranged in a hierarchical fashion, with the lower layers providing services to the upper layers.
+The most common layers in a layer architecture are presentation, application, domain, and data access layers.
+The presentation layer is responsible for user interface and user input/output processing.
+The application layer contains the application logic and is responsible for processing business rules and coordinating interactions between the presentation, domain, and data access layers.
+The domain layer contains the core business logic and is responsible for enforcing business rules and performing operations on business objects.
+The data access layer is responsible for interacting with the underlying data store and performing CRUD operations on the data.
+Layer architecture helps with software development by promoting separation of concerns, modularization, and maintainability.
+It also allows for easier testing, as each layer can be tested independently of the others.
+Finally, layer architecture promotes code reuse, as the layers can be reused across different applications or projects.
+
+### What are the advantages and disadvantages of using a client-server architecture in building web applications?
+### How does the Model-View-Controller (MVC) pattern work, and how does it help with organizing code in web development?
+The Model-View-Controller (MVC) pattern is a software architectural pattern used in web development to separate an application's concerns into three interconnected components: the Model, the View, and the Controller. Here's how each component works and how it helps with organizing code:
+Model: The Model represents the application's data and logic. It is responsible for handling data storage, retrieval, and manipulation. The Model communicates with the database and returns data to the Controller, which then passes it to the View.
+View: The View represents the user interface (UI) of the application. It is responsible for rendering data in a user-friendly format. The View communicates with the Controller to receive data and sends user input back to the Controller for processing.
+Controller: The Controller acts as a mediator between the Model and the View. It is responsible for processing user input and updating the Model and View accordingly. The Controller receives input from the View, interacts with the Model to retrieve or update data, and then sends the updated data to the View for rendering.
+Using the MVC pattern helps with organizing code in web development in several ways:
+Separation of Concerns: The MVC pattern separates an application's concerns into three distinct components, which makes the code more modular and easier to maintain. Developers can focus on specific areas of the code without affecting the other components.
+Reusability: The Model and Controller components can be reused across multiple Views, which saves development time and reduces code duplication.
+Testability: The MVC pattern makes it easier to test an application's components in isolation. Developers can write unit tests for the Model and Controller without worrying about the View's UI.
+Scalability: The MVC pattern supports the addition of new features and functionality without affecting the existing codebase. Developers can add new Views or modify the existing ones without affecting the Model or Controller components.
+模型-視圖-控制器 (MVC) 模式如何工作，它如何幫助組織 Web 開發中的代碼？
+模型-視圖-控制器 (MVC) 模式是一種用於 Web 開發的軟件架構模式，用於將應用程序的關注點分為三個相互關聯的組件：模型、視圖和控制器。 以下是每個組件的工作原理以及它如何幫助組織代碼：
+模型：模型代表應用程序的數據和邏輯。 它負責處理數據存儲、檢索和操作。 模型與數據庫通信並將數據返回給控制器，然後控制器將其傳遞給視圖。
+視圖：視圖代表應用程序的用戶界面 (UI)。 它負責以用戶友好的格式呈現數據。 View 與 Controller 通信以接收數據並將用戶輸入發送回 Controller 進行處理。
+控制器：控制器充當模型和視圖之間的中介。 它負責處理用戶輸入並相應地更新模型和視圖。 Controller 接收來自 View 的輸入，與 Model 交互以檢索或更新數據，然後將更新後的數據發送到 View 進行渲染。
+使用 MVC 模式有助於以多種方式組織 Web 開發中的代碼：
+關注點分離：MVC 模式將應用程序的關注點分為三個不同的組件，這使得代碼更加模塊化並且更易於維護。 開發人員可以專注於代碼的特定區域，而不會影響其他組件。
+可重用性：模型和控制器組件可以跨多個視圖重用，從而節省開發時間並減少代碼重複。
+可測試性：MVC 模式使得單獨測試應用程序的組件變得更加容易。 開發人員可以為模型和控制器編寫單元測試，而不必擔心視圖的 UI。
+可擴展性：MVC 模式支持在不影響現有代碼庫的情況下添加新特性和功能。 開發人員可以在不影響模型或控制器組件的情況下添加新視圖或修改現有視圖。
+
+
+
+### What is multi-tier architecture, and how does it differ from other architectural patterns?
+### What are some common challenges faced when implementing multi-tier architecture, and how can they be addressed?
+
+
+### Compare layered and tiered architectures
+
+Layered and tiered architectures are both commonly used in software development to organize the structure of a system.
+Layered Architecture:
+Layered architecture is a software architecture pattern where the system is divided into layers, where each layer represents a group of related functionality or services.
+Each layer communicates only with the layer directly below or above it, and changes in one layer have minimal impact on other layers.
+The primary goal of layered architecture is to promote separation of concerns, making the system more modular and easier to maintain.
+Tiered Architecture:
+Tiered architecture, also known as multi-tier architecture, is a software architecture pattern where the system is divided into multiple tiers or layers, with each layer serving a different purpose.
+Each tier is responsible for a specific function and communicates with the tier above and below it.
+The most common tiered architecture is the three-tier architecture, which includes the presentation tier, the application tier, and the data tier.
+The primary goal of tiered architecture is to promote scalability, making it possible to add more resources and distribute the load across multiple servers.
+In summary, the primary difference between layered and tiered architectures is their focus. Layered architecture focuses on separation of concerns and modularity, while tiered architecture focuses on scalability and distribution of resources.
+比較分層和分層架構
+
+
+分層和分層體系結構都常用於軟件開發以組織系統的結構。
+分層架構：
+分層架構是一種軟件架構模式，其中系統分為多個層，其中每個層代表一組相關的功能或服務。
+每一層僅與其正下方或上方的層通信，並且一層中的更改對其他層的影響最小。
+分層架構的主要目標是促進關注點分離，使系統更加模塊化和易於維護。
+分層架構：
+分層架構，也稱為多層架構，是一種軟件架構模式，其中系統分為多個層或層，每一層都有不同的用途。
+每一層負責一個特定的功能，並與其上下層進行通信。
+最常見的分層架構是三層架構，包括表示層、應用層和數據層。
+分層架構的主要目標是提高可伸縮性，從而可以添加更多資源並將負載分佈到多個服務器上。
+總之，分層和分層架構之間的主要區別在於它們的重點。 分層架構側重於關注點分離和模塊化，而分層架構側重於可擴展性和資源分佈。
+
+
+
+
 ## lecture 1
 ### Product Manager
 - Product management is a complex discipline that requires multiple skills to master.
