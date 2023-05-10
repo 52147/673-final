@@ -46,11 +46,15 @@
 - 為第一季度發布製定產品路線圖對於及時性、競爭優勢和創收非常重要。
 - 產品路線圖有助於確保產品發布得到有效規劃和執行，同時考慮開發、測試和部署時間表。
 3. In the context of RESTful services, explain what is meant by a ‘resource’. How do RESTful services address resources and operate on them? 
-- A resource in RESTful services is a unit of information or functionality that can be accessed and manipulated through a well-defined interface, typically identified using URIs.
-- RESTful services operate on resources using HTTP methods, such as GET, POST, PUT, and DELETE, with each method having a specific purpose.
-- GET is used to retrieve a representation of a resource, POST is used to create a new resource or perform a non-idempotent operation on an existing resource, PUT is used to update an existing resource or create a new resource if it does not exist, and DELETE is used to delete a resource.
-- Clients send HTTP requests to a resource's URI using the appropriate HTTP method, and servers respond with an HTTP status code indicating the success or failure of the operation, along with a representation of the resource in a specified format.
-- RESTful services are designed to be stateless, with each request containing all of the information necessary to complete the operation, enabling greater scalability and flexibility in the system.
+- Definition:
+  - A resource in RESTful services is a unit of information or functionality that can be accessed and manipulated through a well-defined interface, typically identified using URIs.
+- HTTP methods:
+  - RESTful services operate on resources using HTTP methods, such as GET, POST, PUT, and DELETE, with each method having a specific purpose.
+  - GET is used to retrieve a representation of a resource, POST is used to create a new resource or perform a non-idempotent operation on an existing resource, PUT is used to update an existing resource or create a new resource if it does not exist, and DELETE is used to delete a resource.
+- Process:
+  - Clients send HTTP requests to a resource's URI using the appropriate HTTP method, and servers respond with an HTTP status code indicating the success or failure of the operation, along with a representation of the resource in a specified format.
+- Property:
+  - RESTful services are designed to be stateless, with each request containing all of the information necessary to complete the operation, enabling greater scalability and flexibility in the system.
 - RESTful 服務中的資源是一個信息或功能單元，可以通過定義明確的接口訪問和操作，通常使用 URI 標識。
 - RESTful 服務使用 HTTP 方法（例如 GET、POST、PUT 和 DELETE）對資源進行操作，每種方法都有特定的用途。
 - GET 用於檢索資源的表示，POST 用於創建新資源或對現有資源執行非冪等操作，PUT 用於更新現有資源或創建新資源（如果不存在）， DELETE 用於刪除資源。
