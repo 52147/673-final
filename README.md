@@ -565,21 +565,39 @@ Delivering a great user experience involves describing the desired user experien
 - The Agile mindset complements Agile processes and practices.
 - Agile processes and practices should be seen as a toolbox to pick from as needed, not a rigid set of rules.
 ### Scrum
-- Scrum is an Agile framework for managing and completing complex projects.
-- It was originally developed for software development projects, but can be applied to any project where flexibility and adaptability are required.
-- The framework consists of three main roles: the Product Owner, the Scrum Master, and the Development Team.
-- The Product Owner is responsible for creating and maintaining the product backlog, a prioritized list of features or tasks that need to be completed.
-- The Scrum Master is responsible for facilitating the Scrum process and ensuring that the team is following the framework.
-- The Development Team is responsible for delivering a potentially releasable product increment at the end of each sprint.
-- Sprints are fixed-length iterations of one to four weeks, during which the team works to complete a set of items from the product backlog.
-- Each sprint begins with a sprint planning meeting, where the team plans what work they will complete during the sprint.
-- Daily scrum meetings are held to provide updates on progress and identify any obstacles or issues that need to be addressed.
-- At the end of each sprint, the team holds a sprint review to demonstrate the completed work to stakeholders and receive feedback.
-- The sprint ends with a sprint retrospective, where the team reflects on the sprint and identifies areas for improvement.
-- Scrum emphasizes self-organizing teams, with team members collaborating and taking ownership of their work.
-- The framework is designed to be flexible and adaptable, with the team able to adjust their approach based on feedback and changing circumstances.
-- Scrum can be combined with other Agile methodologies, such as Kanban or Extreme Programming (XP), to create a hybrid approach.
-- To successfully implement Scrum, it is important to have buy-in from all team members and stakeholders, and to have a clear understanding of the framework and its principles.
+- Definition:
+  - Scrum is an Agile framework for managing and completing complex projects.
+  - It was originally developed for software development projects, but can be applied to any project where flexibility and adaptability are required.
+  - The framework consists of three main roles: the Product Owner, the Scrum Master, and the Development Team.
+  - The Product Owner is responsible for creating and maintaining the product backlog, a prioritized list of features or tasks that need to be completed.
+  - The Scrum Master is responsible for facilitating the Scrum process and ensuring that the team is following the framework.
+  - The Development Team is responsible for delivering a potentially releasable product increment at the end of each sprint.
+- Process
+  - Sprints are fixed-length iterations of one to four weeks, during which the team works to complete a set of items from the product backlog.
+  - Each sprint begins with a sprint planning meeting, where the team plans what work they will complete during the sprint.
+  - Daily scrum meetings are held to provide updates on progress and identify any obstacles or issues that need to be addressed.
+  - At the end of each sprint, the team holds a sprint review to demonstrate the completed work to stakeholders and receive feedback.
+  - The sprint ends with a sprint retrospective, where the team reflects on the sprint and identifies areas for improvement.
+- Property
+  - Scrum emphasizes self-organizing teams, with team members collaborating and taking ownership of their work.
+  - The framework is designed to be flexible and adaptable, with the team able to adjust their approach based on feedback and changing circumstances.
+  - Scrum can be combined with other Agile methodologies, such as Kanban or Extreme Programming (XP), to create a hybrid approach.
+  - To successfully implement Scrum, it is important to have buy-in from all team members and stakeholders, and to have a clear understanding of the framework and its principles.
+- Scrum 是一個用於管理和完成複雜項目的敏捷框架。
+- 它最初是為軟件開發項目開發的，但可以應用於任何需要靈活性和適應性的項目。
+- 該框架由三個主要角色組成：產品負責人、Scrum Master 和開發團隊。
+- 產品負責人負責創建和維護產品待辦事項列表，即需要完成的功能或任務的優先列表。
+- Scrum Master 負責促進 Scrum 流程並確保團隊遵循框架。
+- 開發團隊負責在每個衝刺結束時交付潛在可發布的產品增量。
+- Sprint 是一到四個星期的固定長度迭代，在此期間團隊努力完成產品待辦事項列表中的一組項目。
+- 每個衝刺都從衝刺計劃會議開始，團隊會在會上計劃他們將在衝刺期間完成的工作。
+- 每天召開例會以提供最新進展並確定需要解決的任何障礙或問題。
+- 在每個衝刺結束時，團隊都會舉行一次沖刺評審，向利益相關者展示完成的工作並接收反饋。
+- 衝刺以沖刺回顧結束，團隊反思衝刺並確定需要改進的領域。
+- Scrum 強調自組織團隊，團隊成員協作並掌控自己的工作。
+- 該框架旨在靈活和適應性強，團隊能夠根據反饋和不斷變化的情況調整他們的方法。
+- Scrum 可以與其他敏捷方法相結合，例如看板或極限編程 (XP)，以創建混合方法。
+- 要成功實施 Scrum，重要的是要獲得所有團隊成員和利益相關者的支持，並對框架及其原則有清晰的理解。
 ### CI/CD
 ## lecture 3
 ### feature driven
