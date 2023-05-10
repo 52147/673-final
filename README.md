@@ -551,7 +551,31 @@ Layered and tiered architectures are both commonly used in software development 
 Delivering a great user experience involves describing the desired user experience, creating scenarios, epics, user stories, storyboards, workflow diagrams, and storymaps, prioritizing and managing the product backlog, and selecting sprint goals.
 - The supporting knowledge areas involve understanding current customers and users, software technologies, marketing channels, sales channels, project/release management, and ideation and innovation processes.
 - The framework can be used to define specific product roles and identify gaps in product knowledge, as well as to determine learning measures for individuals or groups of product managers or product owners.
+### Product Backlog:
 
+- A product backlog is a prioritized list of features, functionalities, and tasks that need to be developed to achieve the product vision and goals.
+- The product backlog is constantly evolving and should be updated regularly based on user feedback, market changes, and development progress.
+- The product backlog is typically managed by the product owner or product manager.
+- The product backlog should be organized and prioritized based on user needs, business value, and development effort.
+- The product backlog is used to guide sprint planning and development efforts.
+### Product Manager:
+
+- A product manager is responsible for the development and success of a product or product line.
+- The product manager is responsible for defining and communicating the product vision and goals.
+- The product manager works closely with stakeholders, users, and the development team to understand user needs, market trends, and technical feasibility.
+- The product manager is responsible for prioritizing the product backlog and guiding development efforts.
+- The product manager is responsible for monitoring and measuring the success of the product, and making adjustments based on user feedback and market changes.
+- The product manager should be a strong communicator and collaborator, able to work effectively with cross-functional teams.
+
+
+
+### Risk:
+
+- In software development, risks can arise from various sources, such as technical, personnel, legal, or financial issues.
+- Risks should be identified and documented early in the development process.
+- Risks should be assessed and prioritized based on their likelihood and impact.
+- Mitigation strategies should be developed to reduce the likelihood and impact of high-priority risks.
+- Risks should be monitored throughout the development process to ensure that they are effectively managed.
 ## lecture 2
 ### Agile
 - Agile development is a widely adopted methodology in software development.
@@ -619,7 +643,27 @@ Each persona represents a significant portion of people in the real world and en
 - Alan Cooper informally developed personas in the early ’80s as a way to empathize with and internalize the mindset of people who would eventually use the software he was designing.
 - Personas are an essential part of goal-directed design, which combines new and old methodologies from ethnography, market research, and strategic planning to simultaneously address business needs, technological requirements, and user goals.
 - Personas are never used in isolation, but rather are implemented in conjunction with other processes, concepts, and methods that support and augment their use.
-### user story
+### Persona:
+
+- In software development, personas are used to understand the needs and behaviors of users.
+- Personas are often based on user research, such as surveys, interviews, or user testing.
+- Personas help to create user-centered designs that meet the needs and preferences of the target audience.
+- Personas can be used to prioritize features and functionality based on user needs and goals.
+- Personas can be shared with the entire development team to ensure a shared understanding of the target audience.
+### User story:
+
+- In software development, user stories are used to capture and prioritize requirements.
+- User stories are often written in collaboration with stakeholders and users to ensure that they meet user needs and goals.
+- User stories should be brief, clear, and focused on user needs and outcomes.
+- User stories can be organized into a product backlog and used to guide sprint planning and development efforts.
+- User stories can be used to ensure that development efforts are focused on delivering value to users.
+### Scenario:
+
+- In software development, scenarios are used to understand and design user experiences.
+- Scenarios can help to identify user pain points and areas for improvement.
+- Scenarios can be used to test and validate product designs and features.
+- Scenarios can help to ensure that the user journey is seamless and intuitive.
+- Scenarios can be shared with the development team to ensure a shared understanding of the user experience.
 ## lecture 4
 ### architectural style
 #### client/server architectural style:
@@ -732,3 +776,28 @@ Foster a positive code review culture by emphasizing collaboration and learning 
 
 https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 
+## lecture 12
+### DevOps
+DevOps is a term that describes a set of concepts and practices that focus on collaboration between development and operations teams in the software development process.
+DevOps emerged from the application of Agile and Lean approaches to operations work, and a recognition of the importance of operations in creating and operating services.
+The practice of DevOps involves participation from both development and operations engineers throughout the entire service lifecycle, from design to deployment and production support.
+DevOps values collaboration, infrastructure automation, continuous delivery, and site reliability engineering.
+It places a strong emphasis on incorporating knowledge from each field into the other.
+DevOps practices include infrastructure automation, continuous delivery, and site reliability engineering.
+DevOps methods can include Agile, Scrum, Kanban, and Visible Ops-style change control.
+DevOps principles can include the “CAMS” (Culture, Automation, Measurement, and Sharing) model and “Infrastructure as code”.
+DevOps tools can include Jenkins, Travis, Puppet, Chef, Ansible, and Docker, among others.
+DevOps is a large enough concept that it requires some nuance to fully understand and implement correctly.
+
+### Git
+
+Git's branching capabilities allow for a feature branch workflow that provides an isolated environment for every change to your codebase, ensuring that the main branch always contains production-quality code.
+Git is a distributed version control system that provides each developer with their own local repository, complete with a full history of commits. This makes it easier to scale your engineering team, since everybody can continue going about their business in their own local repositories.
+Pull requests enhance core Git functionality and allow developers to initiate discussions around their work before integrating it with the rest of the codebase.
+Git's popularity among open source projects makes it easy to leverage 3rd-party libraries and encourage others to fork your own open source code.
+The shorter development cycle facilitated by Git makes it much easier to divide changes into individual releases, giving marketers more to talk about and target specific market segments.
+More frequent releases means more frequent customer feedback and faster updates in reaction to that feedback, making it easier for product managers to manage innovation projects, beta tests, and rapid prototypes as independent codebases.
+Feature branches lend themselves to rapid prototyping, making it easy for UX/UI designers to experiment with new ideas without the threat of breaking existing functionality.
+Git's streamlined development cycle avoids postponing bug fixes until the next monolithic release, leading to faster fixes and happier customers.
+Git's efficiency affects the bottom line of your engineering department and extends outside of development to prevent marketing from wasting energy on unpopular features, let designers test new interfaces with little overhead, and allow you to react to customer complaints immediately.   
+https://www.atlassian.com/git/tutorials/why-git
