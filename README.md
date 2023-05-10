@@ -217,11 +217,15 @@ The MVC (Model-View-Controller) pattern is used to separate the concerns of an a
 
 
 ### What is Test-Driven Development (TDD), and how does it differ from traditional software testing methodologies?
-- Test-Driven Development (TDD) is a software development methodology in which tests are written first, before any production code is written.
-- TDD emphasizes writing small, focused tests that cover specific aspects of the application's functionality.
-- TDD differs from traditional software testing methodologies, such as manual or automated testing, which typically occur after production code has been written.
-- By writing tests first, TDD can help ensure that the code being written is focused on meeting specific requirements and that the tests provide comprehensive coverage of the application's functionality.
-- TDD is increasingly popular in modern software development, particularly in agile and DevOps environments.
+- Definition:
+  - Test-Driven Development (TDD) is a software development methodology in which tests are written first, before any production code is written.
+- Property:
+  - TDD emphasizes writing small, focused tests that cover specific aspects of the application's functionality.
+  - By writing tests first, TDD can help ensure that the code being written is focused on meeting specific requirements and that the tests provide comprehensive coverage of the application's functionality.
+- Used:
+  - TDD is increasingly popular in modern software development, particularly in agile and DevOps environments.
+- Difference between traditional software testing methodologies:
+  - TDD differs from traditional software testing methodologies, such as manual or automated testing, which typically occur after production code has been written.
 - 什麼是測試驅動開發 (TDD)，它與傳統的軟件測試方法有何不同？
 - 測試驅動開發 (TDD) 是一種軟件開發方法，其中先編寫測試，然後再編寫任何生產代碼。
 - TDD 強調編寫涵蓋應用程序功能的特定方面的小型、集中的測試。
