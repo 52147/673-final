@@ -490,7 +490,7 @@ Finally, layer architecture promotes code reuse, as the layers can be reused acr
 ### Compare layered and tiered architectures
 
 Layered and tiered architectures are both commonly used in software development to organize the structure of a system.
- - Layered Architecture:
+- Layered Architecture:
   - definition:
      - Layered architecture is a software architecture pattern where the system is divided into layers, where each layer represents a group of related functionality or services.
      - Each layer communicates only with the layer directly below or above it, and changes in one layer have minimal impact on other layers.
@@ -503,24 +503,24 @@ Layered and tiered architectures are both commonly used in software development 
     - Each tier is responsible for a specific function and communicates with the tier above and below it.
   - Type:
     - The most common tiered architecture is the three-tier architecture, which includes the presentation tier, the application tier, and the data tier.
- - property:
+  - property:
     - The primary goal of tiered architecture is to promote scalability, making it possible to add more resources and distribute the load across multiple servers.
- - Difference between layered and tiered architectures:
+- Difference between layered and tiered architectures:
     - In summary, the primary difference between layered and tiered architectures is their focus. Layered architecture focuses on separation of concerns and modularity, while tiered architecture focuses on scalability and distribution of resources.
 比較分層和分層架構
 
 
-分層和分層體系結構都常用於軟件開發以組織系統的結構。
-分層架構：
-分層架構是一種軟件架構模式，其中系統分為多個層，其中每個層代表一組相關的功能或服務。
-每一層僅與其正下方或上方的層通信，並且一層中的更改對其他層的影響最小。
-分層架構的主要目標是促進關注點分離，使系統更加模塊化和易於維護。
-分層架構：
-分層架構，也稱為多層架構，是一種軟件架構模式，其中系統分為多個層或層，每一層都有不同的用途。
-每一層負責一個特定的功能，並與其上下層進行通信。
-最常見的分層架構是三層架構，包括表示層、應用層和數據層。
-分層架構的主要目標是提高可伸縮性，從而可以添加更多資源並將負載分佈到多個服務器上。
-總之，分層和分層架構之間的主要區別在於它們的重點。 分層架構側重於關注點分離和模塊化，而分層架構側重於可擴展性和資源分佈。
+- 分層和分層體系結構都常用於軟件開發以組織系統的結構。
+- 分層架構：
+- 分層架構是一種軟件架構模式，其中系統分為多個層，其中每個層代表一組相關的功能或服務。
+- 每一層僅與其正下方或上方的層通信，並且一層中的更改對其他層的影響最小。
+- 分層架構的主要目標是促進關注點分離，使系統更加模塊化和易於維護。
+- 分層架構：
+- 分層架構，也稱為多層架構，是一種軟件架構模式，其中系統分為多個層或層，每一層都有不同的用途。
+- 每一層負責一個特定的功能，並與其上下層進行通信。
+- 最常見的分層架構是三層架構，包括表示層、應用層和數據層。
+- 分層架構的主要目標是提高可伸縮性，從而可以添加更多資源並將負載分佈到多個服務器上。
+- 總之，分層和分層架構之間的主要區別在於它們的重點。 分層架構側重於關注點分離和模塊化，而分層架構側重於可擴展性和資源分佈。
 
 
 
