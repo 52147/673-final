@@ -454,15 +454,18 @@ Finally, layer architecture promotes code reuse, as the layers can be reused acr
 
 ### What are the advantages and disadvantages of using a client-server architecture in building web applications?
 ### How does the Model-View-Controller (MVC) pattern work, and how does it help with organizing code in web development?
-The Model-View-Controller (MVC) pattern is a software architectural pattern used in web development to separate an application's concerns into three interconnected components: the Model, the View, and the Controller. Here's how each component works and how it helps with organizing code:
-Model: The Model represents the application's data and logic. It is responsible for handling data storage, retrieval, and manipulation. The Model communicates with the database and returns data to the Controller, which then passes it to the View.
-View: The View represents the user interface (UI) of the application. It is responsible for rendering data in a user-friendly format. The View communicates with the Controller to receive data and sends user input back to the Controller for processing.
-Controller: The Controller acts as a mediator between the Model and the View. It is responsible for processing user input and updating the Model and View accordingly. The Controller receives input from the View, interacts with the Model to retrieve or update data, and then sends the updated data to the View for rendering.
-Using the MVC pattern helps with organizing code in web development in several ways:
-Separation of Concerns: The MVC pattern separates an application's concerns into three distinct components, which makes the code more modular and easier to maintain. Developers can focus on specific areas of the code without affecting the other components.
-Reusability: The Model and Controller components can be reused across multiple Views, which saves development time and reduces code duplication.
-Testability: The MVC pattern makes it easier to test an application's components in isolation. Developers can write unit tests for the Model and Controller without worrying about the View's UI.
-Scalability: The MVC pattern supports the addition of new features and functionality without affecting the existing codebase. Developers can add new Views or modify the existing ones without affecting the Model or Controller components.
+- definition:
+  - The Model-View-Controller (MVC) pattern is a software architectural pattern used in web development to separate an application's concerns into three interconnected components: the Model, the View, and the Controller. 
+- Here's how each component works and how it helps with organizing code:
+  - Model: The Model represents the application's data and logic. It is responsible for handling data storage, retrieval, and manipulation. The Model communicates with the database and returns data to the Controller, which then passes it to the View.
+  - View: The View represents the user interface (UI) of the application. It is responsible for rendering data in a user-friendly format. The View communicates with the Controller to receive data and sends user input back to the Controller for processing.
+  - Controller: The Controller acts as a mediator between the Model and the View. It is responsible for processing user input and updating the Model and View accordingly. The Controller receives input from the View, interacts with the Model to retrieve or update data, and then sends the updated data to the View for rendering.
+- Using the MVC pattern helps with organizing code in web development in several ways:
+  - Separation of Concerns: The MVC pattern separates an application's concerns into three distinct components, which makes the code more modular and easier to maintain. Developers can focus on specific areas of the code without affecting the other components.
+  - Reusability: The Model and Controller components can be reused across multiple Views, which saves development time and reduces code duplication.
+  - Testability: The MVC pattern makes it easier to test an application's components in isolation. Developers can write unit tests for the Model and Controller without worrying about the View's UI.
+  - Scalability: The MVC pattern supports the addition of new features and functionality without affecting the existing codebase. Developers can add new Views or modify the existing ones without affecting the Model or Controller components.
+
 模型-視圖-控制器 (MVC) 模式如何工作，它如何幫助組織 Web 開發中的代碼？
 模型-視圖-控制器 (MVC) 模式是一種用於 Web 開發的軟件架構模式，用於將應用程序的關注點分為三個相互關聯的組件：模型、視圖和控制器。 以下是每個組件的工作原理以及它如何幫助組織代碼：
 模型：模型代表應用程序的數據和邏輯。 它負責處理數據存儲、檢索和操作。 模型與數據庫通信並將數據返回給控制器，然後控制器將其傳遞給視圖。
@@ -483,16 +486,23 @@ Scalability: The MVC pattern supports the addition of new features and functiona
 ### Compare layered and tiered architectures
 
 Layered and tiered architectures are both commonly used in software development to organize the structure of a system.
-Layered Architecture:
-Layered architecture is a software architecture pattern where the system is divided into layers, where each layer represents a group of related functionality or services.
-Each layer communicates only with the layer directly below or above it, and changes in one layer have minimal impact on other layers.
-The primary goal of layered architecture is to promote separation of concerns, making the system more modular and easier to maintain.
-Tiered Architecture:
-Tiered architecture, also known as multi-tier architecture, is a software architecture pattern where the system is divided into multiple tiers or layers, with each layer serving a different purpose.
-Each tier is responsible for a specific function and communicates with the tier above and below it.
-The most common tiered architecture is the three-tier architecture, which includes the presentation tier, the application tier, and the data tier.
-The primary goal of tiered architecture is to promote scalability, making it possible to add more resources and distribute the load across multiple servers.
-In summary, the primary difference between layered and tiered architectures is their focus. Layered architecture focuses on separation of concerns and modularity, while tiered architecture focuses on scalability and distribution of resources.
+ - Layered Architecture:
+  - definition:
+     - Layered architecture is a software architecture pattern where the system is divided into layers, where each layer represents a group of related functionality or services.
+     - Each layer communicates only with the layer directly below or above it, and changes in one layer have minimal impact on other layers.
+  - property:
+    - The primary goal of layered architecture is to promote separation of concerns, making the system more modular and easier to maintain.
+- Tiered Architecture:
+  - definition:
+    - Tiered architecture, also known as multi-tier architecture, is a software architecture pattern where the system is divided into multiple tiers or layers, with each layer serving a different purpose.
+
+    - Each tier is responsible for a specific function and communicates with the tier above and below it.
+  - Type:
+    - The most common tiered architecture is the three-tier architecture, which includes the presentation tier, the application tier, and the data tier.
+ - property:
+    - The primary goal of tiered architecture is to promote scalability, making it possible to add more resources and distribute the load across multiple servers.
+ - Difference between layered and tiered architectures:
+    - In summary, the primary difference between layered and tiered architectures is their focus. Layered architecture focuses on separation of concerns and modularity, while tiered architecture focuses on scalability and distribution of resources.
 比較分層和分層架構
 
 
